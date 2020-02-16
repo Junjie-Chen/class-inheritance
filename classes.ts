@@ -14,4 +14,10 @@ class Car extends Vehicle {
   private drive(): void {
     console.log('The roar of the engine: vroom');
   }
+
+  public start(): void {
+    console.log(`The color of the car: ${this.color}`);
+
+    console.log(`The number of wheels: ${this.wheels}`);
+  }
 }
