@@ -19,5 +19,7 @@ class Car extends Vehicle {
     console.log(`The color of the car: ${this.color}`);
 
     console.log(`The number of wheels: ${this.wheels}`);
+
+    this.drive();
   }
 }
