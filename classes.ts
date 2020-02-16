@@ -21,5 +21,7 @@ class Car extends Vehicle {
     console.log(`The number of wheels: ${this.wheels}`);
 
     this.drive();
+
+    this.honk();
   }
 }
