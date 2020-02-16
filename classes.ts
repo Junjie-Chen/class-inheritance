@@ -27,3 +27,5 @@ class Car extends Vehicle {
 }
 
 const car = new Car(4, 'red');
+
+car.start();
