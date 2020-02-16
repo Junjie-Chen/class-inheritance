@@ -7,5 +7,7 @@ class Vehicle {
 }
 
 class Car extends Vehicle {
-  constructor(public wheels: number) {}
+  constructor(public wheels: number, color: string) {
+    super(color);
+  }
 }
