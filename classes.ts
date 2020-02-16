@@ -5,3 +5,7 @@ class Vehicle {
     console.log('The honk of horns: beep');
   }
 }
+
+class Car extends Vehicle {
+  constructor(public wheels: number) {}
+}
