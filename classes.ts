@@ -25,3 +25,5 @@ class Car extends Vehicle {
     this.honk();
   }
 }
+
+const car = new Car(4, 'red');
